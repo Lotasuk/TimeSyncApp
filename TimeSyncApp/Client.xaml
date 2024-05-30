@@ -1,0 +1,26 @@
+﻿<mah:MetroWindow x:Class="TimeSyncApp.Client"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mah="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"       
+        xmlns:local="clr-namespace:TimeSyncApp.ViewModel"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        Title="Client" 
+        ResizeMode="CanMinimize"
+        Height="205" Width="280" Icon="/Resources/timer_hourglass_time_clock_icon_124605.ico">
+    <Window.DataContext>
+        <local:MainViewModel/>
+    </Window.DataContext>
+    <Grid>
+        <StackPanel>
+           
+            <Button Command="{Binding SynchronizeTimeCommand}" Content="Синхронизировать" Width="130" Height="50"/>
+            <TextBlock x:Name="IP" Text="Введите IP адрес:"/>
+            <TextBox x:Name="ServerIpAddressTextBox" Text="{Binding ServerIpAddress, UpdateSourceTrigger=PropertyChanged}" Margin="10"/>
+            <TextBlock x:Name="Port" Text="Введите порт:"/>
+            <TextBox x:Name="ServerPortTextBox" Text="{Binding ServerPort, UpdateSourceTrigger=PropertyChanged}" Margin="10"/>
+        </StackPanel>
+    </Grid>
+</mah:MetroWindow>

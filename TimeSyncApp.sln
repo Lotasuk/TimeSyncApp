@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34616.47
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeSyncApp", "TimeSyncApp\TimeSyncApp.csproj", "{36A57C5C-4985-4AB6-9B17-FF34207500EA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{36A57C5C-4985-4AB6-9B17-FF34207500EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36A57C5C-4985-4AB6-9B17-FF34207500EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36A57C5C-4985-4AB6-9B17-FF34207500EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36A57C5C-4985-4AB6-9B17-FF34207500EA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6F8C98B8-D209-427C-AB9B-8CF2171149AE}
+	EndGlobalSection
+EndGlobal
