@@ -7,7 +7,7 @@
         xmlns:local="clr-namespace:TimeSyncApp.ViewModel"
         mc:Ignorable="d"
         WindowStartupLocation="CenterScreen"
-        Title="Client" 
+        Title="ChronoConnect" 
         ResizeMode="CanMinimize"
         Height="205" Width="280" Icon="/Resources/timer_hourglass_time_clock_icon_124605.ico">
     <Window.DataContext>
